@@ -1,0 +1,147 @@
+body {
+  text-align: center;
+}
+
+h2 {
+  color: #93329e;
+}
+
+.container {
+  margin-top: 5px;
+  width: 1150px;
+  height: 610px;
+  border: 3px solid #ffe3fe;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.top {
+  background-color: #ffe3fe;
+  padding: 2px;
+}
+
+.nav-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: darkturquoise;
+  border: 1px solid #ffe3fe;
+}
+
+.nav-grid a {
+  background-color: #fff;
+  float: left;
+  display: block;
+  padding: 10px 60px;
+  border: 2px solid #ffe3fe;
+  border-bottom: 5px solid #ffe3fe;
+  border-radius: 4px;
+  font-size: 22px;
+}
+
+.nav-grid a:first-of-type {
+  border-left: 5px solid #ffe3fe;
+}
+
+.nav-grid a:last-of-type {
+  border-right: 5px solid #ffe3fe;
+}
+
+.nav-bar {
+  border-bottom: 2px solid #ffe3fe;
+}
+
+.grid-container {
+  border: 2px solid black;
+  float: left;
+  display: -ms-grid;
+  display: grid;
+  padding: 10px;
+  margin: 25px;
+  height: 350px;
+  width: 670px;
+  margin-top: 50px;
+      grid-template-areas: "input input input input input input input " "input input  input input input input input " "rad rad . . . . . " ". . . . . . . " ". . . . . . . " ". . . . . . . ";
+  grid-column-gap: 3px;
+}
+
+.grid-container button {
+  width: 80px;
+  padding: 10px;
+  margin: 2px;
+  font-size: medium;
+}
+
+.grid-container .rad {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: rad;
+  width: 180px;
+  padding: 10px;
+  margin: 2px;
+}
+
+.grid-container .rad span {
+  color: grey;
+}
+
+.grid-container .item1,
+.grid-container .item2 {
+  border: none;
+  border-radius: 6px;
+  background-color: #e7e7e7;
+}
+
+.grid-container input[type="text"] {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 7;
+  grid-area: input;
+  width: 100%;
+  font-size: 2rem;
+  margin: 10px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.grid-container input[type="text"]::-webkit-input-placeholder {
+  text-align: right;
+}
+
+.grid-container input[type="text"]:-ms-input-placeholder {
+  text-align: right;
+}
+
+.grid-container input[type="text"]::-ms-input-placeholder {
+  text-align: right;
+}
+
+.grid-container input[type="text"]::placeholder {
+  text-align: right;
+}
+
+.header {
+  border: 3px solid #ffe3fe;
+}
+
+.img-container {
+  float: right;
+}
+
+.footer {
+  border: 3px solid #ffe3fe;
+  background-color: #ffe3fe;
+  width: 1140px;
+  height: 10px;
+  position: absolute;
+  top: 600px;
+}
+/*# sourceMappingURL=styles.css.map */

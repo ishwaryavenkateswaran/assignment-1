@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <h2>
+          Online Calculator
+          <img
+            src="data:image/png;base64,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"
+            alt="image"
+            style="width: 42px; height: 42px; float: right"
+          />
+        </h2>
+        <div class="nav-bar">
+          <nav class="nav-grid">
+            <a> Standard</a>
+            <a>Scientific</a>
+            <a>EMI Calculator</a>
+            <a>Conversions</a>
+            <a style="padding: 23px 90px"> </a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <input
+          class="header"
+          type="text"
+          placeholder="0"
+          style="padding: 2px"
+        />
+
+        <button class="item1 rad">Rad | <span>Deg</span></button>
+
+        <button class="item1">X!</button>
+        <button class="item1">(</button>
+        <button class="item1">)</button>
+        <button class="item1">%</button>
+        <button class="item1">AC</button>
+
+        <button class="item1">lnv</button>
+        <button class="item1">sin</button>
+        <button class="item1">ln</button>
+        <button class="item1">7</button>
+        <button class="item1">8</button>
+        <button class="item1">9</button>
+        <button class="item1">/</button>
+
+        <button class="item1">π</button>
+        <button class="item1">cos</button>
+        <button class="item1">log</button>
+        <button class="item2">4</button>
+        <button class="item2">5</button>
+        <button class="item2">6</button>
+        <button class="item2">*</button>
+
+        <button class="item1">e</button>
+        <button class="item1">tan</button>
+        <button class="item1">√</button>
+        <button class="item2">1</button>
+        <button class="item2">2</button>
+        <button class="item2">3</button>
+        <button class="item1">-</button>
+
+        <button class="item1">Ans</button>
+        <button class="item1">EXP</button>
+        <button class="item1">x <sup>y</sup></button>
+        <button class="item2">0</button>
+        <button class="item2">.</button>
+
+        <button class="item1" style="background-color: #008cba; color: white">
+          =
+        </button>
+        <button class="item1">+</button>
+      </div>
+      <div class="img-container">
+        <img
+          src="https://st2.depositphotos.com/1432405/11454/v/950/depositphotos_114542292-stock-illustration-calculator-icon-in-cartoon-style.jpg"
+          height="500px"
+          width="400px"
+        />
+      </div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>
